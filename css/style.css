@@ -1,0 +1,426 @@
+@media  screen and (max-width:768px) {
+    header div a{
+        display: none;
+    }
+    .tituloimagen .faseroja1{
+        display: none;
+    }
+    .tituloimagen .faseroja2{
+        display: none;
+    }
+    .tituloimagen .faseroja3{
+        display: none;
+    }
+
+    .gridcontainer .grid-item1{
+        display: none;
+    }
+    .gridcontainer .grid-item2{
+        display: none;
+    }
+    .gridcontainer .grid-item3{
+        display: none;
+    }
+    .tituloimagen .faseroja1 {
+        display: none;
+    }
+    .tituloimagen .faseroja2 {
+        display: none;
+    }
+    .tituloimagen .faseroja3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1900px) {
+    .grid-item1 div .decoracion1 {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:1291px) {
+    nav { display: none;
+    }
+}
+
+
+
+
+
+
+h1{
+    color: rgb(195, 187, 34);
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+h3{
+    color: rgb(195, 187, 34);;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+   
+}
+
+h4{
+    color: rgb(195, 187, 34);;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    
+
+}
+
+.subtitulos p{
+    color: rgb(195, 187, 34);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+    
+}
+
+main section p{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+
+main section ol li{
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+main section ul li{
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+footer{
+
+    background-color: rgb(34, 32, 32); 
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer p{
+font-family: Arial, Helvetica, sans-serif;
+color: beige;
+padding: 10px;
+
+}
+
+
+
+footer a{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(190, 190, 19);
+    text-decoration: none;
+    
+}
+
+footer a:hover{
+    color: purple;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+header{
+    display: flex;
+    background-color: rgb(34, 32, 32); 
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid rgb(190, 190, 19)
+    
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding-right: 100px;
+}
+
+nav ul li{
+     margin: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(190, 190, 19);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+nav ul li a:hover {
+    color: purple;
+    margin: 15px;
+    transition: 0.5s;
+}
+
+.logo{
+    width: 300px;
+}
+
+header div{
+    display: flex;
+    
+    align-items: center;
+    padding-right: 80px;
+
+   
+}
+
+header div a{
+    
+    color: rgb(190, 190, 19);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+
+div img{
+    padding-left: 20px;
+    
+    width: 60px;
+    
+}
+
+.enlace-amarillo{
+    display: block;
+    text-align: center;
+    background-color: rgb(190, 190, 19);
+    padding: 15px;
+    border-radius: 5px;
+    width: 100px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+   }
+
+.titulosecuencia p{
+    color: rgb(190, 190, 19);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}   
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px 250px 150px;
+    gap: 25px;
+    margin: 30px;
+
+}
+
+.grid-item1 {
+    display: grid;
+    background-color: rgb(36, 31, 31);
+    border-radius: 5px;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.grid-item1 .foto1{
+    display: flex;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    padding-top: 100px;
+    
+}
+
+.grid-item1 div .decoracion1 {
+    position: relative ;
+    width: 100px;
+    height: 100px;
+    top: -400px;
+    left: 1090px;
+
+}
+
+
+
+.grid-item2 {
+    background-color: rgb(36, 31, 31);
+    border-radius: 5px;
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+
+.grid-item2 img{
+    display: flex;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    padding-top: 100px;
+    padding-right: 15px;
+}
+
+.grid-item3 {
+    background-color: rgb(36, 31, 31);
+    border-radius: 5px;
+    grid-column: 1/3;
+
+}
+
+.grid-item3 img{
+    display: flex;
+    margin: auto;
+    width: 1100px;
+    position: relative;
+    bottom: 70px;
+}
+
+.grid-item3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    
+}
+
+
+.evolucionestelar{
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    padding-left: 300px;
+    padding-top: 30px;
+    
+    
+}
+
+.contacto {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header div a:hover{
+    color: purple;
+    margin: 15px;
+    transition: 0.5s;
+}
+
+
+.textoevolucionestelar p {
+    text-align: center;
+    color: rgb(190, 190, 19);
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+.tituloimagen {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.tituloimagen .faseroja1{
+    width: 500px;
+    height: 500px;
+
+
+}
+
+.tituloimagen .faseroja2{
+    width: 500px;
+    height: 500px;
+
+
+}
+
+.tituloimagen .faseroja3{
+    width: 500px;
+    height: 500px;
+
+
+}
+
+
+.tituloimagen p{
+    text-align: center;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logows {
+    position: fixed;
+    right: 35px;
+    bottom: 35px;
+    width: 50px;
+    height: 50px;
+}
+
+section a:hover{
+    background-color: blue;
+}
+
+form{
+    text-align: center;
+    
+}
+
+
+form label {
+    display: block;
+    color: rgb(190, 190, 19);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+form input {
+    border-color: blue;
+    border: 0px;
+    padding: 5px;
+}
+
+form input:focus{
+    background-color: grey;
+}
+
